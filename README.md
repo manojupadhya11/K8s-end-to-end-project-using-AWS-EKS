@@ -105,6 +105,9 @@ With IAM users set up, you can now configure the AWS CLI and kubectl on your loc
      ```
      aws eks update-kubeconfig --name your-cluster-name
      ```
+     ```
+      aws eks update-kubeconfig --name demo-cluster --region us-east-1
+     ```
    - Verify the configuration by running a kubectl command against your EKS cluster:
      ```
      kubectl get nodes
